@@ -23,3 +23,11 @@ localhost
 ```
 bahmni -i local install-nagios
 ```
+
+4- Deploy changes
+
+From the nagios folder in this repo run:
+
+```
+./deploy.sh
+```
