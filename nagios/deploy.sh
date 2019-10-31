@@ -1,4 +1,3 @@
-cp objects/hostgroups.cfg /etc/nagios/objects/hostgroups.cfg
-cp objects/hosts.cfg /etc/nagios/objects/hosts.cfg
-cp objects/services.cfg /etc/nagios/objects/services.cfg
+cp objects/* /etc/nagios/objects/
+cp nagios.cfg /etc/nagios/
 sudo service nagios restart
